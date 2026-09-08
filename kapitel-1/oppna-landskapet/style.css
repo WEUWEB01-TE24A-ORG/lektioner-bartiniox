@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Slabo+13px&display=swap');
+body {
+    background-image: url(./bilder/achmad-rizkynanda-noor-v6zfklLsIiY-unsplash.jpg);
+}
+h1 {
+    font-family: "Cherry Cream Soda", system-ui;
+}
+h2 {}
+p {
+    font-family: "Slabo 13px", serif;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 300px;
+    background-color: azure;
+}
+a {}
