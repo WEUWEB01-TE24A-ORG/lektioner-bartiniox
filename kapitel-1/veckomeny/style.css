@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fascinate+Inline&display=swap');
+
+body {}
+table {
+    background-color: #48c8ff;
+}
+caption {
+    background-color: #7ff097;
+    font-size: 45px;
+     font-family: "Fascinate Inline", system-ui;
+     background-image: url(./bilder/cloth.webp);
+
+}
+tr {}
+th {
+    font-size: 25px;
+    padding: 15px;
+    font-family: "Cormorant", serif;
+}
+td {
+    font-size: 20px;
+    padding: 15px;
+    font-family: "Cormorant", serif;
+}
+img {
+    width: 250px;
+}
