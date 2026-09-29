@@ -1,3 +1,18 @@
 body { 
+    background-image: url(./bilder/shttefan-viNPa2F7fnw-unsplash.jpg);
     
 }
+
+h1{
+    margin-left: 525px;
+}
+p{
+    margin-left: 380px;
+}
+img{
+    width: 300px;
+    margin-left: 500px;
+}
+table{}
+tr{}
+th{}
