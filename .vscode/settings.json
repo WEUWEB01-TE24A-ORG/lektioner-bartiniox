@@ -30,6 +30,11 @@
     "eliostruyf.vscode-hide-comments": true,
     "angelo-breuer.clock": true,
     "GitHub.copilot": false
+<<<<<<< HEAD
 },
 "liveServer.settings.port": 5501,
+=======
+  },
+      "chat.disableAIFeatures": true
+>>>>>>> f43489957622ad907a272ab054fb42b440cab2c9
 }
