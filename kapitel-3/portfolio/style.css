@@ -13,3 +13,29 @@ img {
     max-width: 20%;
     height: auto;
 }
+
+/* Sidan */
+
+
+
+body {
+
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontainer{
+    justify-content: center;
+}
+
+h2{}
+
+img{}
+
+.kolumner {
+    display: flex;
+    gap: 20px;
+}
