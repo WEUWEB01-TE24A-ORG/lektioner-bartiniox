@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -19,23 +21,61 @@ img {
 
 
 body {
-
+    background-color: rgb(159, 1, 1);
 }
 
 h1{
-    margin-left: auto;
-    margin-right: auto;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+h2{
+    color: aliceblue;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+h3{
+    color: aliceblue;
+    padding: 5px;
+    font-family: "Faculty Glyphic", sans-serif;
 }
 
 .kontainer{
     justify-content: center;
+    
 }
 
-h2{}
-
-img{}
+img{
+    max-width: 40%;
+    height: auto;
+    padding: 10px;
+}
 
 .kolumner {
     display: flex;
-    gap: 20px;
+    gap: 25px;
+}
+
+p{
+    color: aliceblue;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+}
+ul{
+    color: aliceblue;
+    font-family: "Lato", sans-serif;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    background-color: #630000;
+}
+
+a{
+    display: inline-block;
+    margin-top: 20px;
+    color: aliceblue;
 }
