@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -12,4 +13,69 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 img {
     max-width: 100%;
     height: auto;
+}
+/* Sidans utseende */
+body{
+    background-color: #002775;
+}
+.kontainer{
+    background-color: #fff;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+/* Sidhuvudets utseende */
+header{
+
+    h1 {
+        font-family: "Noto Serif", serif;
+        font-size: 60px;
+        text-align: center;
+    }
+    nav{
+        margin-top: 15px;
+        text-align: center;
+        a {
+            background-color: #002775;
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px;
+            max-width: 100px;
+        }
+        a:hover {
+            background-color: #971111;
+        }
+        a.aktiv {
+           background-color: #971111;
+
+        }
+    }
+}
+main{
+    h2 {
+        font-family: "Noto Serif", serif;
+        text-align: center;
+        margin-top: 10px;
+    }
+    figure {
+        width: 400px;
+        padding: 20px;
+        background-color: #fddd86;
+        margin: auto;
+        text-align: center;
+        img{
+
+        }
+        p {
+            
+        }
+        figcaption {
+
+        }
+    }
+}
+footer {
+    p {
+
+    }
 }
